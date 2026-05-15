@@ -1,0 +1,1014 @@
+
+
+FILE: /home/dani/zenith-web/.github/copilot-instructions.md
+
+```
+
+### Configuración de un Hero con Fondo
+```svelte
+
+    
+    
+Título
+    
+Subtítulo
+
+
+FILE: /home/dani/zenith-web/src/app.html
+
+    
+    
+    
+    
+%sveltekit.head%
+    
+    
+    
+%sveltekit.body%
+    
+
+
+FILE: /home/dani/zenith-web/src/routes/+page.svelte
+
+    
+Redirigiendo...
+    
+Redirigiendo a la página de inicio...
+
+
+
+FILE: /home/dani/zenith-web/src/routes/+layout.svelte
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+Contáctenos
+                
+    
+    
+    
+    
+    
+    
+    
+    
+Navegación
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+Diseñamos y desarrollamos webs premium con foco en conversión, velocidad y crecimiento
+                    sostenible.
+                
+    
+    
+Alto rendimiento
+    
+Mobile first
+    
+Orientado a resultados
+    
+    
+    
+    
+Navegación
+    
+Inicio
+    
+Servicios
+    
+Portfolio
+    
+Contacto
+    
+    
+    
+Contacto
+    
+contacto@zenithstudio.com
+    
+WhatsApp
+    
+Instagram
+    
+    
+    
+Legal
+    
+Política de Privacidad
+    
+Términos de Uso
+    
+    
+    
+    
+    
+Hecho con estrategia, diseño y rendimiento.
+    
+    
+
+
+FILE: /home/dani/zenith-web/src/routes/inicio/bloques/bloque1.svelte
+
+    
+    
+Nuestro 
+Proceso de Maestría Digital
+    
+    
+Un camino de 5 fases diseñado para transformar tu visión en una plataforma de alto rendimiento.
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+FILE: /home/dani/zenith-web/src/routes/inicio/bloques/bloque4.svelte
+
+    
+    
+Hablemos de tu 
+Próximo Gran Proyecto
+    
+Estamos listos para transformar tu visión en una realidad digital de alto rendimiento. Cuéntanos más.
+    
+    
+    
+    
+    
+Email
+    
+contacto@zenithstudio.com
+    
+    
+    
+    
+Teléfono
+    
++34 555 123 456
+    
+    
+    
+    
+Ubicación
+    
+Madrid, España (Atendemos proyectos globales)
+    
+    
+    
+    
+    
+Nombre Completo *
+    
+    
+    
+    
+Email *
+    
+    
+    
+    
+Detalles del Proyecto *
+    
+    
+    
+    
+    
+
+
+FILE: /home/dani/zenith-web/src/routes/inicio/bloques/hero.svelte
+
+
+			
+Estudio digital premium
+Construimos activos digitales
+			
+
+			
+				
+
+			
+
+
+		
+Diseño, tecnología y estrategia comercial en una sola ejecución para hacer que tu web se vea
+			excelente y convierta mejor.
+		
+
+
+		
+
+			
+				
+Empezar proyecto
+			
+
+			
+				
+Ver casos
+			
+
+
+		
+
+			
+				
+				
+proyectos lanzados
+
+			
+
+			
+				
+14 días
+				
+entrega estándar
+
+			
+
+			
+				
+4.9/5
+				
+satisfacción media
+
+			
+
+
+FILE: /home/dani/zenith-web/src/routes/inicio/bloques/bloque2.svelte
+
+¿Por qué elegir 
+Zenith Studio
+?
+		
+Combinamos dirección creativa, ingeniería sólida y enfoque comercial para que tu presencia digital
+			sea una ventaja competitiva real.
+		
+
+
+		
+				
+				
+				
+
+
+		
+				
+				
+				
+				
+				
+				
+
+
+FILE: /home/dani/zenith-web/src/routes/inicio/bloques/bloque3.svelte
+
+Proyectos 
+con impacto medible
+Trabajos recientes donde diseño, posicionamiento y estrategia comercial se unieron para producir
+			resultados reales.
+		
+
+
+		
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+
+
+		
+
+			
+Ver portfolio completo 
+
+			
+
+			
+Quiero una propuesta similar
+
+
+FILE: /home/dani/zenith-web/src/routes/portfolio/bloques/hero.svelte
+
+
+			
+Portfolio visual
+
+			
+Ejemplos de webs creadas para vender más
+
+			
+				
+				
+Ver ejemplos
+				
+				
+				
+Pedir propuesta
+				
+
+			
+
+
+		
+
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+
+			
+
+
+FILE: /home/dani/zenith-web/src/routes/portfolio/bloques/portfolio-content.svelte
+
+import PortfolioMockupSvg from '$lib/PortfolioMockupSvg.svelte';
+
+	export let stats: Array
+				
+				
+				
+
+			
+
+			
+
+			
+
+			
+
+			
+				
+				
+				
+				
+
+			
+
+
+		
+
+			
+				
+				
+				
+Ejemplos visuales de webs
+
+
+		
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+
+			
+
+			
+
+			
+				
+Diagnóstico inicial gratuito
+				
+Enfoque 100% orientado a conversión
+				
+Acompañamiento en lanzamiento
+
+			
+
+			
+
+			
+
+
+FILE: /home/dani/zenith-web/src/routes/contacto/+page.svelte
+
+import Hero from './bloques/hero.svelte';
+	import ContactContent from './bloques/contact-content.svelte';
+
+Contacto | Zenith Studio
+
+
+FILE: /home/dani/zenith-web/src/routes/contacto/bloques/hero.svelte
+
+
+			
+Contacta con nosotros
+
+			
+Cuéntanos tu objetivo y te proponemos la mejor solución para tu web.
+			
+
+			
+				
+				
+				
+WhatsApp directo
+				
+				
+				
+				
+Enviar email
+				
+				
+				
+				
+Completar formulario
+				
+
+			
+
+			
+				
+Menos de 24h
+				
+Sin compromiso
+				
+Enfoque en conversión
+
+			
+
+
+		
+
+			
+				
+				
+Cómo trabajamos contigo
+
+			
+
+			
+				
+				
+				
+				
+Nos cuentas tu objetivo
+				
+Qué necesitas y qué quieres conseguir.
+				
+				
+				
+				
+				
+				
+Analizamos tu caso
+				
+Te damos el enfoque más efectivo.
+				
+				
+				
+				
+				
+				
+Recibes propuesta clara
+				
+Con inversión, plazos y siguientes pasos.
+				
+				
+
+			
+
+			
+				
+Sin tecnicismos innecesarios, con enfoque práctico
+			
+
+
+FILE: /home/dani/zenith-web/src/routes/contacto/bloques/contact-content.svelte
+
+
+			
+Respuesta rápida y enfoque claro
+
+			
+Describe tu proyecto en pocas líneas y te diremos el mejor siguiente paso.
+			
+
+			
+				
+				
+				
+
+
+		
+
+			
+				
+Formulario de proyecto
+				
+Cuéntanos tu proyecto
+				
+1 minuto para completarlo.
+				
+
+			
+
+			
+				
+Nombre completo *
+					
+				
+				
+Email profesional *
+					
+				
+				
+Empresa
+					
+				
+				
+Servicio principal
+					
+				
+Diseño y desarrollo web
+				
+Rediseño completo
+				
+Optimización de conversión
+				
+SEO y rendimiento técnico
+				
+Consultoría estratégica
+				
+				
+				
+Presupuesto estimado
+					
+				
+Menos de 500€
+				
+500€ - 1.000€
+				
+1.000€ - 2.000€
+				
+2.000€ - 3.000€
+				
+Más de 3.000€
+				
+				
+				
+¿Cuándo quieres empezar?
+					
+				
+Esta semana
+				
+Este mes
+				
+En 1-2 meses
+				
+Solo estoy valorando
+				
+				
+
+			
+
+			
+Detalles del proyecto *
+				
+
+			
+
+			
+				
+				
+Sin spam. Solo te contactamos para ayudarte con tu proyecto.
+
+			
+
+
+FILE: /home/dani/zenith-web/src/routes/servicios/bloques/bloque1.svelte
+
+
+			
+Excelencia Técnica
+
+			
+Soluciones 
+Digitales de Alto Impacto
+
+			
+
+			
+Fusionamos ingeniería de vanguardia con diseño de clase mundial para crear activos digitales que no solo se ven bien, sino que dominan el mercado.
+			
+
+
+		
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+
+
+FILE: /home/dani/zenith-web/src/routes/servicios/bloques/hero.svelte
+
+particleCanvas.width) p.vx *= -1;
+			if (p.y 
+Nuestros Servicios
+
+
+		
+
+			
+				
+				
+				
+				
+
+			
+
+			
+Mueve el cursor
+
+
+		
+
+			
+				
+				
+
+			
+
+			
+Carrusel automático · desliza cuando quieras
+				
+				
+				
+				
+				
+				
+				
+Excelencia Tecnica
+Nuestros 
+Servicios
+Desliza o deja que el carrusel avance automaticamente
+				
+				
+				
+				
+				
+				
+
+
+FILE: /home/dani/zenith-web/src/routes/servicios/bloques/bloque2.svelte
+
+
+			
+Metodología Zenith
+
+			
+Del Concepto a la 
+Realidad Digital
+
+			
+
+			
+Un flujo de trabajo optimizado para eliminar la fricción y maximizar la calidad técnica en cada fase del proyecto.
+			
+
+
+		
+
+			
+
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+
+
+		
+
+			
+				
+¿Listo para elevar tu presencia digital?
+				
+Estamos listos para transformar tu visión en una herramienta de facturación y prestigio.
+				
+				
+Iniciar un Proyecto
+				
+				
+
+			
+
+
+FILE: /home/dani/zenith-web/static/manual-coorporativo.html
+
+Zenith Studio · Propuesta comercial
+
+			
+				
+				
+				
+Estudio digital premium
+				
+				
+				
+				
+Qué ofrecemos
+				
+Webs que 
+posicionan
+y convierten.
+				
+Diseño, desarrollo y criterio comercial en una sola entrega: una web creíble, rápida y orientada a
+							generar contactos de calidad para tu negocio.
+						
+				
+				
+				
+				
+Servicios para tu negocio
+				
+				
+				
+				
+Diseño web
+				
+Creamos sitios web atractivos, funcionales y optimizados para todos los dispositivos.
+				
+				
+				
+Desarrollo web
+				
+Implementamos soluciones técnicas avanzadas con las mejores prácticas de programación.
+				
+				
+				
+E-commerce
+				
+Desarrollamos tiendas online que convierten visitantes en clientes satisfechos.
+				
+				
+				
+UI / UX
+				
+Diseñamos experiencias digitales centradas en el usuario para aumentar la interacción y la retención.
+				
+				
+				
+				
+Optimizamos tu sitio para los motores de búsqueda y mejoramos tu posicionamiento.
+				
+				
+				
+Mantenimiento
+				
+Servicio continuo para mantener tu sitio actualizado, seguro y funcionando perfectamente.
+				
+				
+				
+				
+				
+				
+				
+				
+				
+Proyectos
+				
++43%
+Más contactos
+				
+4,9/5
+Valoración
+				
+				
+Solicitar presupuesto
+				
+				
+				
+Zenith Studio
+01 / 02 · Oferta
+
+			
+
+
+		
+
+			
+				
+				
+				
+Siguiente paso
+				
+				
+				
+				
+Cierre comercial
+				
+Hablemos de tu 
+web definitiva
+				
+Te enviamos alcance, plazos y presupuesto. Si encaja, arrancamos con un plan claro y entregas por
+							fases. Cuéntanos tu caso y respondemos en menos de 24 horas.
+						
+				
+				
+				
+Valor para tu negocio
+				
+				
+				
+Autoridad
+				
+Mensaje claro y percepción premium desde el primer vistazo.
+				
+				
+				
+Conversión
+				
+Estructura pensada para reservas, consultas o ventas.
+				
+				
+				
+Tecnología
+				
+Rendimiento, SEO técnico y base preparada para crecer.
+				
+				
+				
+Integración
+				
+WhatsApp, formularios y analítica alineados con cómo captas clientes.
+				
+				
+				
+				
+				
+				
+Nuestros planes
+				
+				
+				
+Esencial
+				
+desde 249€
+				
+Web con presencia profesional, formulario y lo esencial para empezar a recibir consultas con buena imagen.
+				
+				
+				
+Profesional
+				
+desde 499€
+				
+Más apartados, mejor narrativa en la home y llamadas a la acción pensadas para generar más contacto de calidad.
+				
+				
+				
+Avanzado
+				
+desde 849€
+				
+Proyecto a medida con más integraciones, contenido propio y funciones especiales según lo que necesites.
+				
+				
+				
+				
+				
+				
+				
+				
+Contacto
+				
+				
+				
+				
+				
+				
+				
+Correo
+							
+				
+Propuesta y seguimiento por email.
+				
+Escribir correo
+				
+				
+				
+				
+				
+				
+WhatsApp
+							
+				
+Mensaje directo para priorizar tu proyecto.
+				
+Abrir WhatsApp
+				
+				
+				
+				
+				
+				
+				
+				
+Instagram
+							
+				
+Referencias visuales y actualidad del estudio.
+				
+Ver Instagram
+				
+				
+				
+				
+Zenith Studio
+02 / 02 · Contacto
+
+			

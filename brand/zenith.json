@@ -1,0 +1,78 @@
+{
+  "brand": "Zenith Studio",
+
+  "identity": {
+
+    "industry":
+    "premium digital agency",
+
+    "services": [
+      "web design",
+      "automation",
+      "artificial intelligence",
+      "branding",
+      "conversion optimization"
+    ],
+
+    "tone": [
+      "premium",
+      "professional",
+      "modern",
+      "minimal",
+      "technological",
+      "high-end"
+    ],
+
+    "audience": [
+      "business owners",
+      "ambitious companies",
+      "modern brands",
+      "premium clients"
+    ]
+  },
+
+  "visual_style": {
+
+    "look":
+    "luxury futuristic editorial",
+
+    "avoid": [
+      "generic marketing",
+      "cheap design",
+      "cartoon style",
+      "stock feeling",
+      "basic layouts"
+    ],
+
+    "preferred": [
+      "editorial composition",
+      "cinematic lighting",
+      "glassmorphism",
+      "depth",
+      "premium typography",
+      "strong hierarchy",
+      "modern advertising style"
+    ]
+  },
+
+  "colors": {
+
+    "background":
+    "#0b0e14",
+
+    "primary":
+    "#49e4b0",
+
+    "cyan":
+    "#00bfff",
+
+    "text":
+    "#f0f4f8"
+  },
+
+  "instagram": {
+
+    "width": 1080,
+    "height": 1350
+  }
+}
