@@ -41,6 +41,8 @@ jobs:
       - name: Run pipeline
         run: |
 
+          mkdir -p output
+
           pwd
           ls
           ls scripts
