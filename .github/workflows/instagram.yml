@@ -49,4 +49,4 @@ jobs:
 
         with:
           name: instagram-post
-          path: ./output/final-post.png
+          path: output/
